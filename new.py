@@ -4,5 +4,6 @@ sum = 0
 for x in kt:
     while (x != 0): 
         sum = sum + int(x % 10) 
+        print(sum+int(x % 10), "ok")
         x = int(x/10) 
     print(sum)
