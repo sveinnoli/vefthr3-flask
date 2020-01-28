@@ -1,9 +1,4 @@
 kt = [2902003030, 1111111111]
-	
-sum = 0
-for x in kt:
-    while (x != 0): 
-        sum = sum + int(x % 10) 
-        print(sum+int(x % 10), "ok")
-        x = int(x/10) 
-    print(sum)
+result = [sum(int(digit) for digit in str(number)) for number in kt]
+print(result)
+  

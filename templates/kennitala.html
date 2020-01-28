@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Kennitala</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends "base.html" %}
+{%block content%}
+    {% for x in kt %}
+        <a href="/kennitala/{{ x }}"> {{x}}</a>
+    {% endfor %}
+{% endblock %}
