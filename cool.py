@@ -1,4 +1,11 @@
-kt_notcurrent = 2902003030
+def getSum(n): 
+   
+    sum = 0
+    while (n != 0): 
+      
+        sum = sum + int(n % 10) 
+        n = int(n/10) 
+      
+    return sum
 
-kt_notcurrent = str(kt_notcurrent)
-print(kt_notcurrent)
+print(getSum(2902004040))
