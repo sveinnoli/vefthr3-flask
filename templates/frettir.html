@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content%}
+    <main class="flexwrapper">
+    {% for item in frettir %}
+        <div class="frett">
+            <a href="frettir/{{item[0]}}" class="link-block">
+                <span class="frett-malsgrein">{{item[1]}}</span>
+            </a>
+        </div>
+    {% endfor %}
+    </main>
+{% endblock %}
