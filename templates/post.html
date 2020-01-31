@@ -2,12 +2,13 @@
 {% block content%}
 
 <div class="frettir-container">
+    <h2>{{frett[1]}}</h2>
     <div class="frettir-image-container">
         <img src="{{frett[-1]}}">
     </div>
+    <h3>{{frett[2]}}</h3>
 </div>
-
-<div class="main">
-
+<div class="frettir-about">
+    <span class="frettir-writer">{{frett[3]}}</span>
 </div>
 {% endblock %}

@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
 a {
     color: rgb(59, 167, 235);
     text-decoration: none;

@@ -12,7 +12,7 @@ def getSum(n):
 
 @app.route('/')
 def index():
-	return render_template("index.html")
+	return render_template("frettir.html")
 			   
 @app.route('/kennitala')
 def kennitolur():
