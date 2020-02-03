@@ -12,6 +12,14 @@ body {
     line-height: 1.5;
 }
 
+html, body {
+    height: 100%;
+}
+
+.html {
+    scroll-behavior: smooth;
+  }
+
 a {
     color: rgb(59, 167, 235);
     text-decoration: none;
@@ -31,6 +39,7 @@ img {
 .base-container {
     max-width: 70em;
     margin: 4.2em auto 0 auto;
+    flex: 1 0 auto;
 }
 
 .link-block {
